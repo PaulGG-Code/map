@@ -62,7 +62,7 @@
 {"id": "COO","group": 15,"targets" : []},
 {"id": "Audit Coordinator","group": 15,"targets" : []},
 {"id": "Audit Team","group": 15,"targets" : []},
-{"id": "Lead Auditor","group": 15,"targets" : []},,
+{"id": "Lead Auditor","group": 15,"targets" : []},
 {"id": "Management Person","group": 15,"targets" : []},
 {"id": "Auditor","group": 15,"targets" : []},
 
