@@ -134,7 +134,7 @@
 {"id": "P-880-5.6","group": 15,"targets" : ["Auditor"]},
 {"id": "Auditor","group": 15,"targets" : []},
 {"id": "P-880-5.7","group": 15,"targets" : ["Auditor"]},
-{"id": "P-880-5.8","group": 15,"targets" : ["Lead Auditor,"Audit Team","Audit Coordinator"]},
+{"id": "P-880-5.8","group": 15,"targets" : ["Lead Auditor","Audit Team","Audit Coordinator"]},
 {"id": "P-880-5.9","group": 15,"targets" : ["Lead Auditor"]},
 {"id": "P-890-5.1.1","group": 16,"targets" : ["President","Top Management"]},
 {"id": "P-890-5.2","group": 16,"targets" : ["President","Top Management"]},
