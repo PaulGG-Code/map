@@ -143,8 +143,8 @@
 {"id": "P-890-5.4","group": 16,"targets" : ["President","HR Manager","Manufacturing Manager","Quality Manager","LMS Team"]},
 {"id": "P-890-5.5","group": 16,"targets" : ["LMS Leader","Delegate"]},
 {"id": "P-890-5.5.3","group": 16,"targets" : ["Auditor"]},
-{"id": "P-890-5.6","group": 16,"targets" : ["LMS Leader"]}
-
+{"id": "P-890-5.6","group": 16,"targets" : ["LMS Leader"]},
+{"id": "Manufacturing Manager","group": 16,"targets" : []}
 ],
 
 
