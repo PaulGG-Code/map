@@ -1,0 +1,165 @@
+{"nodes":[
+
+    {"id":"ISO 13485", "group":1, "targets": ["Quality Management System","Secure Design", "Secure Developement", "Secure Production", "Secure Storage", "Secure Installation","Risk Management"]},
+    {"id":"Quality Management System","group": 1,"targets" : []},
+    {"id":"Secure Design","group": 1,"targets" : []},
+    {"id":"Secure Developement","group": 1,"targets" : []},
+    {"id":"Secure Production","group": 1,"targets" : []},
+    {"id":"Secure Storage","group": 1,"targets" : []},
+    {"id":"Secure Installation","group": 1,"targets" : []},
+    {"id":"Risk Management","group": 1,"targets" : []},
+
+    {"id": "AAMI TIR:57 2016","group": 2,"targets":["Technical Information Report","Risk Management","Incident Response", "Testing", "Validation"]},
+    {"id": "Technical Information Report","group": 2,"targets" : []},
+    {"id": "Risk Management","group": 2,"targets" : []},
+    {"id": "Incident Response","group": 2,"targets" : []},
+    {"id": "Testing","group": 2,"targets" : []},
+    {"id": "Validation","group": 2,"targets" : []},
+
+    {"id": "AAMI TIR:91 2019", "group": 3, "target": ["Technical Information Report","Secure Design","Testing","Testing Process", "Testing Requirement", "Validation"]},
+    {"id": "Technical Information Report","group": 3,"targets" : []},
+    {"id": "Secure Design","group": 3,"targets" : []},
+    {"id": "Testing","group": 3,"targets" : []},
+    {"id": "Testing Process","group": 3,"targets" : []},
+    {"id": "Testing Requirement","group": 3,"targets" : []},
+    {"id": "Validation","group": 3,"targets" : []},
+
+    {"id": "IEC 80001-5-1","group": 4,"targets" : ["Risk Management"]},
+    {"id": "Risk Management","group": 4,"targets" : []},
+
+    {"id": "ISO 14971","group": 5,"targets" : ["Risk Management","Risk Identification", "Risk Evaluation", "Mitigate Risk", "Safety and Performance", "Risk Management Guidlines"]},
+    {"id": "Risk Management","group": 5,"targets" : []},
+    {"id": "Risk Identification","group": 5,"targets" : []},
+    {"id": "Risk Evaluation","group": 5,"targets" : []},
+    {"id": "Mitigate Risk","group": 5,"targets" : []},
+    {"id": "Safety and Performance","group": 5,"targets" : []},
+    {"id": "Risk Management Guidlines","group": 5,"targets" : []},
+
+    {"id": "ISO 27001","group": 6,"targets" : ["Information Security Management Systems", "Establish Infomration Security", "Implement Infomration Security", "Maintain Infomration Security", "Continually Improve Infomration Security"]},
+    {"id": "Information Security Management", "group":6, "targets" : []},
+    {"id": "Establish Infomration Security", "group":6, "targets" : []},
+    {"id": "Implement Infomration Security", "group":6, "targets" : []},
+    {"id": "Maintain Infomration Security", "group":6, "targets" : []},
+    {"id": "Continually Improve Infomration Security", "group":6, "targets" : []},
+
+    {"id": "ISO 80001","group": 7,"targets" : ["Risk Management", "Risk Management Application", "Risk Consideration", "Security and Safety"]},
+    {"id": "Risk Management","group": 7,"targets" : []},
+    {"id": "Risk Management Application","group": 7,"targets" : []},
+    {"id": "Risk Consideration","group": 7,"targets" : []},
+    {"id": "Security and Safety","group": 7,"targets" : []},
+
+    {"id": "NIST SP 800-124","group": 8,"targets" : ["Security Guidance for WMTS","Wireless Medical Telemetry Systems", "Security Requirements", "Testing", "Validation", "Incident Response", "WMTS Security and Privacy"]},
+    {"id": "Security Guidance for WMTS","group": 8,"targets" : []},
+    {"id": "Wireless Medical Telemetry Systems","group": 8,"targets" : []},
+    {"id": "Security Requirements","group": 8,"targets" : []},
+    {"id": "Testing","group": 8,"targets" : []},
+    {"id": "Validation","group": 8,"targets" : []},
+    {"id": "Incident Response","group": 8,"targets" : []},
+    {"id": "WMTS Security and Privacy","group": 8,"targets" : []},
+
+    {"id": "MDCG 2019-16","group": 9,"targets" : ["Cybersecurity Guidance", "Risk Management Guidlines", "Risk Management", "Incident Response", "Testing", "Validation", "Certification Process", "Compliance Requirement", "ISO 14971"]},  
+    {"id": "Cybersecurity Guidance","group": 9,"targets" : []},
+    {"id": "Risk Management Guidlines","group": 9,"targets" : []},
+    {"id": "Risk Management","group": 9,"targets" : []},
+    {"id": "Incident Response","group": 9,"targets" : []},
+    {"id": "Testing","group": 9,"targets" : []},
+    {"id": "Validation","group": 9,"targets" : []},
+    {"id": "Certification Process","group": 9,"targets" : []},
+    {"id": "Compliance Requirement","group": 9,"targets" : []},
+    {"id":"ISO 14971","group": 9,"targets" : []},
+
+    {"id": "OWASP","group": 10,"targets" : ["Thread Modeling","Risk Identification","Mitigate Risk"]},
+    {"id": "Thread Modeling","group": 10,"targets" : []},
+    {"id": "Risk Identification","group": 10,"targets" : []},
+    {"id": "Mitigate Risk","group": 10,"targets" : []},
+
+    {"id": "MITRE ATT&CK","group": 11,"targets" : ["Thread Modeling","Risk Identification","Mitigate Risk"]},
+    {"id": "Thread Modeling","group": 11,"targets" : []},
+    {"id": "Risk Identification","group": 11,"targets" : []},
+    {"id": "Mitigate Risk","group": 11,"targets" : []}
+
+    ],
+    
+    
+    "links":[
+    
+    {"source":"ISO 13485", "target": "Secure Design","value":1},
+    {"source":"ISO 13485", "target": "Secure Developement","value":1},
+    {"source":"ISO 13485", "target": "Secure Production","value":1},
+    {"source":"ISO 13485", "target": "Secure Storage","value":1},
+    {"source":"ISO 13485", "target": "Secure Installation","value":1},
+    {"source":"ISO 13485", "target": "Risk Management","value":1},
+    {"source":"ISO 13485", "target": "Quality Management System","value":1},
+
+
+    {"source":"AAMI TIR:57 2016", "target": "Technical Information Report","value":1},
+    {"source":"AAMI TIR:57 2016", "target": "Risk Management","value":1},
+    {"source":"AAMI TIR:57 2016", "target": "Incident Response","value":1},
+    {"source":"AAMI TIR:57 2016", "target": "Testing","value":1},
+    {"source":"AAMI TIR:57 2016", "target": "Validation","value":1},
+
+
+    {"source":"AAMI TIR:91 2019","target":"Technical Information Report","value":1},
+    {"source":"AAMI TIR:91 2019","target":"Secure Design","value":1},
+    {"source":"AAMI TIR:91 2019","target":"Testing","value":1},
+    {"source":"AAMI TIR:91 2019","target":"Testing Process","value":1},
+    {"source":"AAMI TIR:91 2019","target":"Testing Requirement","value":1},
+    {"source":"AAMI TIR:91 2019","target":"Validation","value":1},
+
+
+    {"source":"IEC 80001-5-1","target":"Risk Management","value":1},
+
+    {"source":"ISO 14971","target":"Risk Management","value":1},
+    {"source":"ISO 14971","target":"Risk Identification","value":1},
+    {"source":"ISO 14971","target":"Risk Evaluation","value":1},
+    {"source":"ISO 14971","target":"Mitigate Risk","value":1},
+    {"source":"ISO 14971","target":"Safety and Performance","value":1},
+    {"source":"ISO 14971","target":"Risk Management Guidlines","value":1},
+
+
+    {"source":"ISO 27001","target":"Information Security Management","value":1},
+    {"source":"ISO 27001","target":"Establish Infomration Security","value":1},
+    {"source":"ISO 27001","target":"Implement Infomration Security","value":1},
+    {"source":"ISO 27001","target":"Maintain Infomration Security","value":1},
+    {"source":"ISO 27001","target":"Continually Improve Infomration Security","value":1},
+
+
+    {"source":"ISO 80001","target":"Risk Management","value":1},
+    {"source":"ISO 80001","target":"Risk Management Application","value":1},
+    {"source":"ISO 80001","target":"Risk Consideration","value":1},
+    {"source":"ISO 80001","target":"Security and Safety","value":1},
+ 
+ 
+    {"source":"NIST SP 800-124","target":"Security Guidance for WMTS","value":1},
+    {"source":"NIST SP 800-124","target":"Wireless Medical Telemetry Systems","value":1},
+    {"source":"NIST SP 800-124","target":"Security Requirements","value":1},
+    {"source":"NIST SP 800-124","target":"Testing","value":1},
+    {"source":"NIST SP 800-124","target":"Validation","value":1},
+    {"source":"NIST SP 800-124","target":"Incident Response","value":1},
+    {"source":"NIST SP 800-124","target":"WMTS Security and Privacy","value":1},
+
+
+    {"source":"MDCG 2019-16","target":"Cybersecurity Guidance","value":1},
+    {"source":"MDCG 2019-16","target":"Risk Management Guidlines","value":1},
+    {"source":"MDCG 2019-16","target":"Risk Management","value":1},
+    {"source":"MDCG 2019-16","target":"Incident Response","value":1},
+    {"source":"MDCG 2019-16","target":"Testing","value":1},
+    {"source":"MDCG 2019-16","target":"Validation","value":1},
+    {"source":"MDCG 2019-16","target":"Certification Process","value":1},
+    {"source":"MDCG 2019-16","target":"Compliance Requirement","value":1},
+    {"source":"MDCG 2019-16","target":"ISO 14971","value":1},
+     
+    
+    {"source":"OWASP","target":"Thread Modeling","value":1},
+    {"source":"OWASP","target":"Risk Identification","value":1},
+    {"source":"OWASP","target":"Mitigate Risk","value":1},
+
+
+    {"source":"MITRE ATT&CK","target":"Thread Modeling","value":1},
+    {"source":"MITRE ATT&CK","target":"Risk Identification","value":1},
+    {"source":"MITRE ATT&CK","target":"Mitigate Risk","value":1},
+
+    ]
+    
+    }
+    
