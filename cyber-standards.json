@@ -157,7 +157,7 @@
 
     {"source":"MITRE ATT&CK","target":"Thread Modeling","value":1},
     {"source":"MITRE ATT&CK","target":"Risk Identification","value":1},
-    {"source":"MITRE ATT&CK","target":"Mitigate Risk","value":1},
+    {"source":"MITRE ATT&CK","target":"Mitigate Risk","value":1}
 
     ]
     
